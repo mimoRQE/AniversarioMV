@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.quintero.raul.aniversariomv.R;
+import com.quintero.raul.aniversariomv.Util.Font;
 
 /**
  * Created by nodus7 on 19/12/14.
@@ -53,6 +54,8 @@ public class MenuAdapter extends BaseAdapter {
         ImageView imageOption =(ImageView)convertView.findViewById(R.id.menu_image);
         imageOption.setImageResource(imageOptions[position]);
         TextView textOption =(TextView) convertView.findViewById(R.id.menu_text);
+        Font font = new Font();
+        font.changeHame(context,textOption);
         textOption.setText(listOptions[position]);
         return convertView;
     }

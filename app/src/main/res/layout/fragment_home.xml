@@ -4,7 +4,47 @@
     tools:context="com.quintero.raul.aniversariomv.fragment.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight=".8"
+                >
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="@string/letter_home"
+                    android:layout_margin="20dp"
+                    android:textColor="#EF5350"
+                    android:gravity="center|top"
+                    android:id="@+id/text_letter" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gracias\npor estos\n5años"
+                    android:id="@+id/text_thanks"
+                    android:layout_gravity="center"
+                    android:textColor="#EF5350"
+                    android:textSize="50sp"
+                    android:textIsSelectable="false"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </FrameLayout>

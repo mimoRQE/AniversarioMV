@@ -6,9 +6,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.quintero.raul.aniversariomv.MainActivity;
 import com.quintero.raul.aniversariomv.R;
+import com.quintero.raul.aniversariomv.Util.Font;
 
 /**
  * A PhotoFragment fragment containing a simple view.
@@ -39,7 +41,16 @@ public class PhotoFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_photo, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_photo, container, false);;
+        TextView text2010 = (TextView)rootView.findViewById(R.id.text_2010);
+        TextView text2011= (TextView)rootView.findViewById(R.id.text_2011);
+        TextView text2012= (TextView)rootView.findViewById(R.id.text_2012);
+        TextView text2013= (TextView)rootView.findViewById(R.id.text_2013);
+        Font font = new Font();
+        font.changeHame(getActivity(),text2010);
+        font.changeHame(getActivity(),text2011);
+        font.changeHame(getActivity(),text2012);
+        font.changeHame(getActivity(),text2013);
         return rootView;
     }
 

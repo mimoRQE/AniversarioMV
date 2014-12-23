@@ -8,7 +8,9 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
+import com.quintero.raul.aniversariomv.Util.Font;
 import com.quintero.raul.aniversariomv.fragment.HomeFragment;
 import com.quintero.raul.aniversariomv.fragment.OtherFragment;
 import com.quintero.raul.aniversariomv.fragment.PhotoFragment;
@@ -31,7 +33,11 @@ public class MainActivity extends ActionBarActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        TextView textHappy = (TextView)findViewById(R.id.text_happy);
+        TextView textAni= (TextView)findViewById(R.id.text_ani);
+        Font font = new Font();
+        font.changeReally(this,textHappy);
+        font.changeReally(this,textAni);
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();

@@ -12,10 +12,11 @@
         android:gravity="center_vertical|right"
         android:paddingRight="20dp"
         android:id="@+id/menu_text"
-        android:textSize="13sp"
+        android:textSize="25sp"
         android:layout_toRightOf="@+id/menu_image"
         android:layout_toEndOf="@+id/menu_image"
-        android:layout_centerVertical="true" />
+        android:layout_centerVertical="true"
+        android:textColor="#EF5350" />
 
     <ImageView
         android:layout_width="wrap_content"

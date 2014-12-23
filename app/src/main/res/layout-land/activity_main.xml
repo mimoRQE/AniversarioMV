@@ -29,13 +29,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:text="Feliz"
+                        android:text="Feliz Aniversario"
                         android:id="@+id/text_happy"
                         android:layout_gravity="center_horizontal"
                         android:textColor="#FFFFFF"
                         android:textSize="50sp"
                         android:textIsSelectable="false"
-                        android:layout_marginLeft="10dp" />
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -46,8 +47,12 @@
                         android:layout_gravity="center_horizontal"
                         android:textColor="#ffffff"
                         android:textSize="50sp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_below="@+id/text_happy" />
+                        android:layout_alignParentTop="true"
+                        android:layout_alignLeft="@+id/text_happy"
+                        android:layout_alignStart="@+id/text_happy"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginStart="125dp"
+                        android:visibility="gone" />
 
                     <ImageView
                         android:layout_width="100dp"
@@ -55,7 +60,9 @@
                         android:id="@+id/imageView"
                         android:layout_alignParentTop="true"
                         android:layout_alignParentRight="true"
-                        android:src="@drawable/heart" />
+                        android:src="@drawable/heart"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" />
                 </RelativeLayout>
             </LinearLayout>
 

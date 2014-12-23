@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.quintero.raul.aniversariomv.MainActivity;
 import com.quintero.raul.aniversariomv.R;
+import com.quintero.raul.aniversariomv.Util.Font;
 
 /**
  * A HomeFragment fragment containing a simple view.
@@ -39,6 +41,12 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        TextView textThanks = (TextView)rootView.findViewById(R.id.text_thanks);
+        TextView textLetter= (TextView)rootView.findViewById(R.id.text_letter);
+        Font font = new Font();
+        font.changeHame(getActivity(),textLetter);
+        font.changeHand(getActivity(),textThanks);
+
         return rootView;
     }
 
