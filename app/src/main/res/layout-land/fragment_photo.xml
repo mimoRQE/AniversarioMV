@@ -28,30 +28,13 @@
                     android:layout_weight="1">
 
                     <RelativeLayout
-                        android:id="@+id/layout_2010"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
 
 
-                        <ImageView
-                            android:id="@+id/image_2010"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true" />
-
-                        <RelativeLayout
-                            android:id="@+id/image_hover_2010"
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            android:background="#FCE4EC"
-                            android:alpha="0.5"
-                            android:visibility="gone"></RelativeLayout>
-
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
+                            android:layout_height="fill_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="... - 2010"
                             android:id="@+id/text_2010"
@@ -70,29 +53,13 @@
                     android:layout_height="fill_parent"
                     android:layout_weight=".8">
                     <RelativeLayout
-                        android:id="@+id/layout_2011"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
 
-                        <ImageView
-                            android:id="@+id/image_2011"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true" />
-
-                        <RelativeLayout
-                            android:id="@+id/image_hover_2011"
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            android:background="#EF5350"
-                            android:alpha=".5"
-                            android:visibility="gone"></RelativeLayout>
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
+                            android:layout_height="fill_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="2011"
                             android:id="@+id/text_2011"
@@ -126,29 +93,13 @@
                     android:layout_height="fill_parent"
                     android:layout_weight=".8">
                     <RelativeLayout
-                        android:id="@+id/layout_2012"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
 
-                        <ImageView
-                            android:id="@+id/image_2012"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true" />
-
-                        <RelativeLayout
-                            android:id="@+id/image_hover_2012"
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            android:background="#EF5350"
-                            android:alpha=".5"
-                            android:visibility="gone"></RelativeLayout>
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
+                            android:layout_height="fill_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="2012"
                             android:id="@+id/text_2012"
@@ -167,30 +118,13 @@
                     android:layout_height="fill_parent"
                     android:layout_weight="1">
                     <RelativeLayout
-                        android:id="@+id/layout_2013"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
 
 
-                        <ImageView
-                            android:id="@+id/image_2013"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true" />
-
-                        <RelativeLayout
-                            android:id="@+id/image_hover_2013"
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            android:background="#FCE4EC"
-                            android:alpha=".5"
-                            android:visibility="gone"></RelativeLayout>
-
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
+                            android:layout_height="fill_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="2013 - 2014"
                             android:id="@+id/text_2013"
