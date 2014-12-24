@@ -39,7 +39,9 @@
                             android:layout_height="match_parent"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true" />
+                            android:layout_alignParentEnd="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image_2010" />
 
                         <RelativeLayout
                             android:id="@+id/image_hover_2010"
@@ -80,7 +82,9 @@
                             android:layout_height="match_parent"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true" />
+                            android:layout_alignParentEnd="true"
+                            android:src="@drawable/image_2011"
+                            android:scaleType="centerCrop" />
 
                         <RelativeLayout
                             android:id="@+id/image_hover_2011"
@@ -136,7 +140,9 @@
                             android:layout_height="match_parent"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true" />
+                            android:layout_alignParentEnd="true"
+                            android:src="@drawable/image_2012"
+                            android:scaleType="centerCrop" />
 
                         <RelativeLayout
                             android:id="@+id/image_hover_2012"
@@ -178,7 +184,9 @@
                             android:layout_height="match_parent"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true" />
+                            android:layout_alignParentEnd="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image_2014" />
 
                         <RelativeLayout
                             android:id="@+id/image_hover_2013"

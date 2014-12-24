@@ -3,6 +3,7 @@ package com.quintero.raul.aniversariomv.fragment;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -12,7 +13,7 @@ import android.widget.TextView;
 
 import com.quintero.raul.aniversariomv.MainActivity;
 import com.quintero.raul.aniversariomv.R;
-import com.quintero.raul.aniversariomv.Util.Font;
+import com.quintero.raul.aniversariomv.util.Font;
 
 /**
  * A PhotoFragment fragment containing a simple view.
@@ -81,13 +82,25 @@ public class PhotoFragment extends Fragment{
                         layoutHover.setVisibility(View.VISIBLE);
                         break;
                     case MotionEvent.ACTION_UP:
-                        //set color back to default
                         layoutHover.setVisibility(View.GONE);
+                        sendGallery(v.getId());
                         break;
                 }
                 return true;
             }
         });
+    }
+
+    private void sendGallery(int idLayout){
+        switch (idLayout){
+            case R.id.layout_2010:
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                Fragment fragment =  GalleryGridFragment.newInstance(2010);
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, fragment)
+                        .commit();
+                break;
+        }
     }
 
     @Override

@@ -28,9 +28,27 @@
                     android:layout_weight="1">
 
                     <RelativeLayout
+                        android:id="@+id/layout_2010"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
 
+
+                        <ImageView
+                            android:id="@+id/image_2010"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:scaleType="centerCrop" />
+
+                        <RelativeLayout
+                            android:id="@+id/image_hover_2010"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FCE4EC"
+                            android:alpha="0.5"
+                            android:visibility="gone"></RelativeLayout>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -53,9 +71,26 @@
                     android:layout_height="fill_parent"
                     android:layout_weight=".8">
                     <RelativeLayout
+                        android:id="@+id/layout_2011"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
 
+                        <ImageView
+                            android:id="@+id/image_2011"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:scaleType="centerCrop" />
+
+                        <RelativeLayout
+                            android:id="@+id/image_hover_2011"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#EF5350"
+                            android:alpha=".5"
+                            android:visibility="gone"></RelativeLayout>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -71,7 +106,7 @@
                             android:textColor="#EF5350" />
                     </RelativeLayout>
 
-                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
@@ -93,9 +128,26 @@
                     android:layout_height="fill_parent"
                     android:layout_weight=".8">
                     <RelativeLayout
+                        android:id="@+id/layout_2012"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
 
+                        <ImageView
+                            android:id="@+id/image_2012"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:scaleType="centerCrop" />
+
+                        <RelativeLayout
+                            android:id="@+id/image_hover_2012"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#EF5350"
+                            android:alpha=".5"
+                            android:visibility="gone"></RelativeLayout>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -110,7 +162,7 @@
                             android:background="#FCE4EC"
                             android:textColor="#EF5350" />
                     </RelativeLayout>
-                    </LinearLayout>
+                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -118,9 +170,27 @@
                     android:layout_height="fill_parent"
                     android:layout_weight="1">
                     <RelativeLayout
+                        android:id="@+id/layout_2013"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
 
+
+                        <ImageView
+                            android:id="@+id/image_2013"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:scaleType="centerCrop" />
+
+                        <RelativeLayout
+                            android:id="@+id/image_hover_2013"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FCE4EC"
+                            android:alpha=".5"
+                            android:visibility="gone"></RelativeLayout>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -135,7 +205,7 @@
                             android:background="#EF5350"
                             android:textColor="#FCE4EC" />
                     </RelativeLayout>
-                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

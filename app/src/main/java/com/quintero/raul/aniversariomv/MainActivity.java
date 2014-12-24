@@ -10,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.quintero.raul.aniversariomv.Util.Font;
+import com.quintero.raul.aniversariomv.util.Font;
 import com.quintero.raul.aniversariomv.fragment.HomeFragment;
 import com.quintero.raul.aniversariomv.fragment.OtherFragment;
 import com.quintero.raul.aniversariomv.fragment.PhotoFragment;

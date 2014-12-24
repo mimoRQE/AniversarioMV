@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.quintero.raul.aniversariomv.R;
-import com.quintero.raul.aniversariomv.Util.Font;
+import com.quintero.raul.aniversariomv.util.Font;
 
 /**
  * Created by nodus7 on 19/12/14.

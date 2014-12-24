@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.quintero.raul.aniversariomv.MainActivity;
 import com.quintero.raul.aniversariomv.R;
-import com.quintero.raul.aniversariomv.Util.Font;
+import com.quintero.raul.aniversariomv.util.Font;
 
 /**
  * A HomeFragment fragment containing a simple view.
